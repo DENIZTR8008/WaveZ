@@ -1,0 +1,25 @@
+# Gradle & Kotlin
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Android / NDK / CMake
+.cxx/
+**/.cxx/
+local.properties
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS / Temp
+.DS_Store
+Thumbs.db
+*.log
