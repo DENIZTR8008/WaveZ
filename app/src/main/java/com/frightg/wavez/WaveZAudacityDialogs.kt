@@ -648,7 +648,7 @@ fun AboutSummaryDialog(onDismiss: () -> Unit) {
         title = { Text("WaveZ Studio — Сводка и Справка", color = AudNeon, fontWeight = FontWeight.Bold, fontSize = 16.sp) },
         text = {
             Column(modifier = Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text("Проект: WaveZ Audio Editor (com.frightg.wavez)\nАвтор проекта: FrightG / DENIZTR", color = AudText, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                Text("Проект: WaveZ Audio Editor (com.frightg.wavez)\nАвтор проекта: frightG / DENIZTR", color = AudText, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
                 HorizontalDivider()
                 Text("Краткий гайд по работе:", color = AudNeon, fontSize = 12.sp, fontWeight = FontWeight.Bold)
                 Text(
